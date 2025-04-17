@@ -496,11 +496,13 @@ footer{
     header.row{
         position: sticky;
         top: 0;
+        z-index: 999;
     }
 
     .responsive-menu .navigations{
         position: sticky;
         top: 80px;
+        z-index: 999;
     }
 
     /* Slider */

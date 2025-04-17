@@ -21,8 +21,24 @@ const birthdayWishes = [
         message: "Happy birthday, Rayal May your day be filled with all the wonderful things that make you happy on your special day. I wish you a lifetime of smiles, a heart full of dreams and adventures that make every moment worth living . Have a fantastic birthday and an even more incredible year. Baby girl, I love you so much, my milk eater ❤️",
     },
     {
-        author: "Barrie",
-        message: "Happy birthday Rayal. Can't wait to celebrate with you . 🤘🎉🎂🎂🎂",
+        author: "Pato",
+        message: "Happy birthday to you bby gyal I wish all the best life can offer and pray that all your wishes come to pass Birthday Bliss love",
+    },
+    {
+        author: "Bakaar",
+        message: "Happy birthday Rayal, as you celebrate you birthday tomorrow. I wanted to wish you long life , good health, and especially may the Almighty give you everything that your heart desires, save you from people that wanted to put you down and give you things that he knows is right for you, and not give you things that he know is gonna be harm to you. I hope that you are taking care of my brother❤️😂, Anyways wishing you a happy birthday 🎉 in advance.",
+    },
+    {
+        author: "Madlen Rayal Jalloh ",
+        message: "In the land  of beauty and the time of handsomeness We ar talking about all the April born in town.Am wishing Rayal a happy birthday and meny  more years to come,my all your secret prayers come true and your days be filled with joy.🥳🥳",
+    },
+    {
+        author: "Damian John",
+        message: "Happy Birthday! Wishing you a day filled with love, laughter, and everything that makes you happy",
+    },
+    {
+        author: "Anthony",
+        message: "HAPPY BIRTHDAY ANINE!!! Wishing you an amazing and blessed birthday filled with joy and laughter 🙌. Wish that yu get all you deserve in life and more as yu nw reach +1 may your life be filled with blessings and prosperity.Praying for your good health,long life and that you age with grace. Wow must know oo.You're now 18 🤩😁🥳🎂 🥳 🎉 🎈 🎁 🎊",
     },
 ]
 
