@@ -229,6 +229,10 @@ header ul a:hover {
     cursor: grabbing;
 }
 
+.card-author{
+    font-size: 1.5em;
+}
+
 .card-wrapper .swiper-pagination-bullet {
     width: 13px;
     height: 13px;
