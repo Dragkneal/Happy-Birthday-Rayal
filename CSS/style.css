@@ -134,7 +134,7 @@ header ul a:hover {
 /* HERO */
 .hero {
     min-height: 80vh;
-    background-image: url(../Images/4.jpg);
+    background-image: url(../Images/Raylo/Hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -352,7 +352,7 @@ header ul a:hover {
 }
 
 .quiz .left{
-    background-image: url(../Images/1.jpg);
+    background-image: url(../Images/Raylo/Quiz.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

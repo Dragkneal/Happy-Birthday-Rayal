@@ -9,7 +9,7 @@ const amountOfPicToAdd3 = amountOfPicToAdd * 3;
 // Add picture
 function addPic() {
   
-  for (let i = amountOfPicToAdd + 1; i <= amountOfPicToAdd2; i++) {
+  for (let i = amountOfPicToAdd + 1; i <= amountOfPicToAdd2 - 9; i++) {
     const newPic = document.createElement("img");
     newPic.setAttribute("src", `../Images/Raylo/${i}.jpg`);
     newPic.setAttribute("alt", `Raylo ${i}`);
@@ -37,7 +37,7 @@ function addPic2() {
   }
 }
 function addPic3() {
-  for (let i = amountOfPicToAdd2 + 1; i <= amountOfPicToAdd3; i++) {
+  for (let i = amountOfPicToAdd2 + 1; i <= amountOfPicToAdd3 - 10; i++) {
     const newPic = document.createElement("img");
     newPic.setAttribute("src", `../Images/Raylo/${i}.jpg`);
     newPic.setAttribute("alt", `Raylo ${i}`);
