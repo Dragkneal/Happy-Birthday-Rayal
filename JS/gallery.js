@@ -2,14 +2,14 @@ const picContainerA = document.querySelectorAll(".dream-a");
 const picContainerB = document.querySelectorAll(".dream-b");
 const picContainerC = document.querySelectorAll(".dream-c");
 
-const amountOfPicToAdd = 30;
-const amountOfPicToAdd2 = 60;
-const amountOfPicToAdd3 = 90;
+const amountOfPicToAdd = 90;
+const amountOfPicToAdd2 = amountOfPicToAdd * 2;
+const amountOfPicToAdd3 = amountOfPicToAdd * 3;
 
 // Add picture
 function addPic() {
-
-  for (let i = 1; i <= amountOfPicToAdd; i++) {
+  
+  for (let i = amountOfPicToAdd + 1; i <= amountOfPicToAdd2; i++) {
     const newPic = document.createElement("img");
     newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
     newPic.setAttribute("alt", `Raylo ${i}`);
@@ -23,7 +23,7 @@ function addPic() {
   }
 }
 function addPic2() {
-  for (let i = amountOfPicToAdd + 1; i <= amountOfPicToAdd2; i++) {
+  for (let i = 1; i <= amountOfPicToAdd; i++) {
     const newPic = document.createElement("img");
     newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
     newPic.setAttribute("alt", `Raylo ${i}`);
