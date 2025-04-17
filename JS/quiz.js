@@ -54,17 +54,6 @@ advanced: [
     { question: "When was she born?", options: ["Today", "March 18 2009", "March 18 2004", "None of the above"], answer: "None of the above" },
     { question: "What is her best sport?", options: ["Basketball", "Tennis", "Football", "Balance ball"], answer: "Football" },
     { question: "What was heer first schools name?", options: ["Wammagriso", "Nice Price Pepartory School", "SOS", "Barnies"], answer: "Nice Price Pepartory School" },
-    { question: "At what age did Rayal start attend school?", options: ["2", "3", "4", "5"], answer: "3" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
-    { question: "What was the name of my first pet?", options: ["Buddy", "Max", "Snow", "Tiger"], answer: "Max" },
 ]
 };
 
