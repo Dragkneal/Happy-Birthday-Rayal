@@ -1,4 +1,63 @@
-// Popup Image
+const picContainerA = document.querySelectorAll(".dream-a");
+const picContainerB = document.querySelectorAll(".dream-b");
+const picContainerC = document.querySelectorAll(".dream-c");
+
+const amountOfPicToAdd = 30;
+const amountOfPicToAdd2 = 60;
+const amountOfPicToAdd3 = 90;
+
+// Add picture
+function addPic() {
+
+  for (let i = 1; i <= amountOfPicToAdd; i++) {
+    const newPic = document.createElement("img");
+    newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
+    newPic.setAttribute("alt", `Raylo ${i}`);
+    newPic.classList.add("clickable-image");
+    newPic.style.maxWidth = '100%';
+    newPic.style.height = 'auto';
+
+    picContainerA.forEach(container => {
+      container.appendChild(newPic);
+    });
+  }
+}
+function addPic2() {
+  for (let i = amountOfPicToAdd + 1; i <= amountOfPicToAdd2; i++) {
+    const newPic = document.createElement("img");
+    newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
+    newPic.setAttribute("alt", `Raylo ${i}`);
+    newPic.classList.add("clickable-image");
+    newPic.style.maxWidth = '100%';
+    newPic.style.height = 'auto';
+
+    picContainerB.forEach(container => {
+      container.appendChild(newPic);
+    });
+  }
+}
+function addPic3() {
+  for (let i = amountOfPicToAdd2 + 1; i <= amountOfPicToAdd3; i++) {
+    const newPic = document.createElement("img");
+    newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
+    newPic.setAttribute("alt", `Raylo ${i}`);
+    newPic.classList.add("clickable-image");
+    newPic.style.maxWidth = '100%';
+    newPic.style.height = 'auto';
+
+    picContainerC.forEach(container => {
+      container.appendChild(newPic);
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  addPic();
+  addPic2();
+  addPic3();
+
+  // Popup Image
+const clickableImage = document.querySelectorAll(".clickable-image");
 document.querySelectorAll(".clickable-image").forEach(image => {
   image.addEventListener("click", function () {
     const popup = document.getElementById("popup");
@@ -12,7 +71,7 @@ document.querySelectorAll(".clickable-image").forEach(image => {
   });
 });
   
-// Close the popup when the close button is clicked
+// Close the popup when clicking the close button
 document.getElementById("close").addEventListener("click", function () {
   const popup = document.getElementById("popup");
   popup.classList.add("hidden");
@@ -23,4 +82,5 @@ document.getElementById("popup").addEventListener("click", function (event) {
   if (event.target.id === "popup") {
     this.classList.add("hidden");
   }
+});
 });
