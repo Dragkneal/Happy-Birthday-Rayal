@@ -40,6 +40,10 @@ const birthdayWishes = [
         author: "Anthony",
         message: "HAPPY BIRTHDAY ANINE!!! Wishing you an amazing and blessed birthday filled with joy and laughter 🙌. Wish that yu get all you deserve in life and more as yu nw reach +1 may your life be filled with blessings and prosperity.Praying for your good health,long life and that you age with grace. Wow must know oo.You're now 18 🤩😁🥳🎂 🥳 🎉 🎈 🎁 🎊",
     },
+    {
+        author: "Angela",
+        message: "Happy blessed birthday, Rayal. A.Jalloh may God continue to bless and protect you and may all your prayers and wishes be answered 🙏 🥳🎂🥂💞Stay blessed we luv u ❤️",
+    },
 ]
 
 //Create card
