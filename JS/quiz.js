@@ -10,7 +10,7 @@ beginner: [
     { question: "Which day of the week does she like the most", options: ["Saturday", "Friday", "Monday", "Sunday"], answer: "Friday" },
     { question: "What is her favorite drink?", options: ["Maltina", "Fanta", "Xtra Juice", "Coke"], answer: "Xtra Juice" },
     { question: "Where was Rayal born?", options: ["Marie Stoves Hospital", "hospital2", "hospital3", "hospital4"], answer: "Marie Stoves Hospital" },
-    { question: "Rayals Favorite holiday is ", options: ["Christmas","New Year", "EAster", "Boxing Day"], answer: "Christmas" },
+    { question: "Rayals Favorite holiday is ", options: ["Christmas","New Year", "Easter", "Ramadan"], answer: "Christmas" },
 ],
 intermediate: [
     { question: "What city was I born in?", options: ["NY", "LA", "Chicago", "Miami"], answer: "Chicago" },

@@ -482,17 +482,25 @@ footer{
         text-align: center;
     }
 
-    /* Styling for individual navigation items */
     .responsive-menu .navigations a {
         color: #007bff;
         margin: 0 10px;
         font-weight: var(--bold);
     }
 
-    /* Hover effect for links */
     .responsive-menu .navigations a:hover {
         color: #0056b3;
         text-decoration: underline;
+    }
+
+    header.row{
+        position: sticky;
+        top: 0;
+    }
+
+    .responsive-menu .navigations{
+        position: sticky;
+        top: 80px;
     }
 
     /* Slider */
