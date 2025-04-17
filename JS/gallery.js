@@ -11,7 +11,7 @@ function addPic() {
   
   for (let i = amountOfPicToAdd + 1; i <= amountOfPicToAdd2; i++) {
     const newPic = document.createElement("img");
-    newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
+    newPic.setAttribute("src", `../Images/Raylo/${i}.jpg`);
     newPic.setAttribute("alt", `Raylo ${i}`);
     newPic.classList.add("clickable-image");
     newPic.style.maxWidth = '100%';
