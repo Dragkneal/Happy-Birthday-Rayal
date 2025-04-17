@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- Box Icon Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header class="row">
+        <div class="row container">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="../index.html">Happy Birthday Rayal</a>
+            </div>
+            <!-- Navigations -->
+            <div class="navigations hidden-sml">
+                <ul class="row">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./wishes.html">Wishes</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./quiz.html">Quiz</a></li>
+                </ul>
+            </div>
+            <!-- Wish Button -->
+                <div class="wish hidden-sml">
+                <a href="#wish-form" class="btn wish-btn">Send a wish</a>
+                </div>
+        </div>
+    </header>
+
+    <!-- Navigatons Mobile -->
+    <div class="responsive-menu hidden-l">
+        <div class="navigations">
+        </div>
+    </div>
+
+    <h1>Wishes</h1>
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- WISH -->
+        <section id="wish-form" class="wish-form column">
+            <h2>Send a wish</h2>
+            <form class="container column" onsubmit="sendToWhatSapp(); return false;">
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <input type="text" id="wish" placeholder="Enter your birthday message" required>
+                <div class="btn-container">
+                    <button type="submit" class="btn wish-btn">Send</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- COPYRIGHT -->
+        <div class="copyright container row">
+            <div class="left">
+                <p>&copy; 2025 Happy Birthday Rayal. All rights reserved.</p>
+            </div>
+            <div class="right row">
+                <a href="" class="social"><i class='bx bxl-facebook'></i></a>
+                <a href="" class="social"><i class='bx bxl-instagram'></i></a>
+                <a href="" class="social"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+    </footer>   
+</body>
+</html>

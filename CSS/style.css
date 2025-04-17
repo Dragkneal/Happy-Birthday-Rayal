@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: gold;
+    --black: #000;
+    --white: #fff;
+    --blue: #007bff;
+    /* --card: rgba(245, 245, 245, 0.774); */
+
+    --bold: 700;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.view {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* REUSABLE STYLES */
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+}
+
+.container {
+    max-width: 1110px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hidden-l {
+    visibility: hidden;
+    display: none;
+}
+
+.card-author {
+    color: var(--primary-color);
+    text-align: right;
+    margin-top: 15px;
+    font-family: 'Alex Brush', sans-serif;
+}
+
+.btn {
+    padding: .5em 1em;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.wish-btn {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-weight: var(--bold);
+}
+
+.wish-btn2 {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.wish-btn2:hover {
+    background-color: transparent;
+    border-color: var(--primary-color);
+    font-weight: var(--bold);
+    color: var(--primary-color);
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo a {
+    font-size: 2em;
+    font-family: 'Alex Brush', sans-serif;
+    color: var(--primary-color);
+    font-weight: var(--bold);
+}
+
+header ul {
+    gap: 30px;
+}
+
+header ul a {
+    font-size: 1.1em;
+    transition: all .5s;
+}
+
+header ul a:hover {
+    color: var(--primary-color);
+}
+
+/* HERO */
+.hero {
+    min-height: 80vh;
+    background-image: url(../Images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero h1 {
+    font-size: 2.4em;
+    color: var(--primary-color);
+    font-family: 'Alex Brush', sans-serif;
+}
+
+.hero p{
+    font-size: 1.2em;
+}
+
+.hero .container {
+    gap: 15px;
+}
+
+.hero .container .wish {
+    justify-content: center;
+}
+
+.hero .container .btn {
+    width: 25%;
+}
+
+/* WISHES SECTION */
+.wishes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.wishes-section .label {
+    position: relative;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.wishes-section .label h2 {
+    font-size: 2em;
+    color: var(--primary-color);
+    font-family: 'Alex Brush', sans-serif;
+    position: absolute;
+    left: 42%;
+}
+
+.wishes-section .label a {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    position: absolute;
+    right: 10%;
+}
+
+.card-wrapper {
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.wishes-section .card-item {
+    user-select: none;
+    display: block;
+    cursor: pointer;
+    background: var(--white);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: .2s ease;
+}
+
+.wishes-section .card-item:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.wishes-section .card-item:active {
+    cursor: grabbing;
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    opacity: 0.5;
+    background-color: var(--primary-color);
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+/* GALLERY */
+.gallery {
+    padding: 50px 0 20px;
+}
+
+.gallery .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery .container .heading {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.gallery .container h2 {
+    font-size: 2.3em;
+    font-weight: var(--bold);
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.gallery .container h2 span {
+
+    color: var(--black);
+    font-weight: 100;
+}
+
+.gallery .container .img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery .container .img-box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.gallery .container .img-box .dream img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.gallery .container .btn {
+    margin: 20px 0;
+    padding: .5em 1.5em;
+    letter-spacing: 3px;
+}
+
+/* POPUP STYLING */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup img {
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 10px;
+}
+
+.popup.hidden {
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* QUIZ */
+.quiz .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    min-height: 50vh;
+    padding: 0 0 20px;
+}
+
+.quiz .left{
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quiz .right{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quiz .right h2{
+    font-size: 2.3em;
+    font-family: 'Alex Brush', sans-serif;
+    color: var(--primary-color);
+}
+
+.quiz .right p{
+    font-size: 1.1em;
+}
+
+.quiz .right .red{
+    color: red;
+    font-weight: var(--bold);
+    font-style: italic;
+}
+
+/* FOOTER */
+footer{
+    color: var(--white);
+    background: var(--black);
+    padding-top: 20px;
+}
+
+/* WISH FORM */
+.wish-form{
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wish-form h2{
+    color: var(--primary-color);
+    font-size: 2.3em;
+    font-family: 'Alex Brush', sans-serif;
+}
+
+.wish-form form{
+    width: 50%;
+    gap: 10px;
+}
+
+.wish-form form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
+
+.wish-form .btn-container{
+    display: flex;
+    align-items: center;
+}
+
+.wish-form form button{
+    border: none;
+    outline: none;
+    padding: .5em 1.5em;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: var(--white);
+}
+
+/* COPYRIGHT */
+.copyright{
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.copyright .right{
+    gap: 10px;
+}
+
+.copyright .right a{
+    font-size: 1.3em;
+}
+
+.copyright p{
+    font-size: small;
+}
+
+/* SMALLER DEVICES */
+@media screen and (max-width: 768px) {
+    .hidden-sml {
+        visibility: hidden;
+        display: none;
+    }
+
+    .hidden-l {
+        visibility: visible;
+        display: initial;
+    }
+
+    header {
+        box-shadow: none;
+    }
+
+    header .container {
+        justify-content: center;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    /* Style for the responsive menu */
+    .responsive-menu .navigations {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #f8f9fa;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    /* Styling for individual navigation items */
+    .responsive-menu .navigations a {
+        color: #007bff;
+        margin: 0 10px;
+        font-weight: var(--bold);
+    }
+
+    /* Hover effect for links */
+    .responsive-menu .navigations a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    /* Slider */
+    .card-wrapper {
+        margin: 0 10px 25px;
+    }
+
+    .card-wrapper .swiper-slide-button {
+        display: none;
+    }
+
+    /* Birthday Wishes Label */
+    .wishes-section .label {
+        width: fit-content;
+        padding: 5px 0;
+    }
+
+    .wishes-section .label h2 {
+        position: initial;
+    }
+
+    /* Gallery */
+    .gallery .container .img-box {
+        gap: 15px;
+    }
+
+    .gallery .container .img-box .dream img {
+        border-radius: 5px;
+    }
+
+    .gallery .container .img-box .dream {
+        width: 100%;
+    }
+
+    .popup img {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 10px;
+    }
+
+    .wish-form form .btn-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    section.hero .container .btn {
+        width: 35%;
+    }
+
+    .gallery .container .heading {
+        width: 80%;
+    }
+
+    .gallery .container h2 {
+        font-size: 2em;
+    }
+
+    .quiz .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .quiz .left{
+        height: 40vh;
+        background-position: top;
+    }
+
+    .copyright{
+        flex-direction: column-reverse;
+    }
+
+    .copyright p{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    section.hero .container {
+        padding: 20px 0;
+    }
+
+    section.hero .container .btn {
+        width: 45%;
+    }
+
+    .copyright p{
+        font-size: x-small;
+    }
+}
