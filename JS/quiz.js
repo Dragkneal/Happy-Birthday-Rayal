@@ -1,8 +1,16 @@
 //Array object(Question, options, answer) of questions for each level
 const questions = {
 beginner: [
-    { question: "What's my favorite color?", options: ["Red", "Blue", "Green", "Black"], answer: "Blue" },
-    { question: "Do I prefer cats or dogs?", options: ["Cats", "Dogs"], answer: "Dogs" },
+    { question: "What's Rayals' favorite color?", options: ["Red", "Blue", "Green", "Black"], answer: "Blue" },
+    { question: "Does she prefer cats or dogs?", options: ["Cats", "Dogs"], answer: "Dogs" },
+    { question: "When did she live highschool?", options: ["2021", "2019", "2024", "2022"], answer: "2024" },
+    { question: "What is her favorite type of music?", options: ["Country", "Pop", "Rap", "sentimental"], answer: "Country" },
+    { question: "What is her favorite food to eat?", options: ["Foofoo", "Rice and Green", "Gari", "Rice and Cassava leaf"], answer: "Rice and Green" },
+    { question: "Which of the following games does Rayal like to play on her phone", options: ["Subway Surf", "CODM", "Talking Tom", "Painting games"], answer: "Painting games" },
+    { question: "Which day of the week does she like the most", options: ["Saturday", "Friday", "Monday", "Sunday"], answer: "Friday" },
+    { question: "What is her favorite drink?", options: ["Maltina", "Fanta", "Xtra Juice", "Coke"], answer: "Xtra Juice" },
+    { question: "Where was Rayal born?", options: ["Marie Stoves Hospital", "hospital2", "hospital3", "hospital4"], answer: "Marie Stoves Hospital" },
+    { question: "Rayals Favorite holiday is ", options: ["Christmas","New Year", "EAster", "Boxing Day"], answer: "Christmas" },
 ],
 intermediate: [
     { question: "What city was I born in?", options: ["NY", "LA", "Chicago", "Miami"], answer: "Chicago" },
