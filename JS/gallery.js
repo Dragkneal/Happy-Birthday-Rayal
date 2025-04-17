@@ -25,7 +25,7 @@ function addPic() {
 function addPic2() {
   for (let i = 1; i <= amountOfPicToAdd; i++) {
     const newPic = document.createElement("img");
-    newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
+    newPic.setAttribute("src", `../Images/Raylo/${i}.jpg`);
     newPic.setAttribute("alt", `Raylo ${i}`);
     newPic.classList.add("clickable-image");
     newPic.style.maxWidth = '100%';
@@ -39,7 +39,7 @@ function addPic2() {
 function addPic3() {
   for (let i = amountOfPicToAdd2 + 1; i <= amountOfPicToAdd3; i++) {
     const newPic = document.createElement("img");
-    newPic.setAttribute("src", `/../Images/Raylo/${i}.jpg`);
+    newPic.setAttribute("src", `../Images/Raylo/${i}.jpg`);
     newPic.setAttribute("alt", `Raylo ${i}`);
     newPic.classList.add("clickable-image");
     newPic.style.maxWidth = '100%';
