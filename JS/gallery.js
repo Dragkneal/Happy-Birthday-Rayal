@@ -2,7 +2,7 @@ const picContainerA = document.querySelectorAll(".dream-a");
 const picContainerB = document.querySelectorAll(".dream-b");
 const picContainerC = document.querySelectorAll(".dream-c");
 
-const amountOfPicToAdd = 90;
+const amountOfPicToAdd = 100;
 const amountOfPicToAdd2 = amountOfPicToAdd * 2;
 const amountOfPicToAdd3 = amountOfPicToAdd * 3;
 
