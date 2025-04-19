@@ -141,10 +141,13 @@ function finishQuiz() {
     nextBtn.style.display = 'none';
     score.textContent = `Your Score: ${originalScore} / ${questions[currentLevel].length}`;
     const emojiMath = Math.floor(originalScore / questions[currentLevel].length * 100);
-    if (emojiMath >= 80) {
+    
+    if(emojiMath >= 100) {
+        emoji.innerHTML = `<span><a href="../Pages/rayal-wish.html">Rayal wish</a></span>`;
+    }else if (emojiMath >= 80) {
         emoji.innerHTML = "<span>Excellent 😃</span>";
     } else if (emojiMath >= 50) {
-        emoji.innerHTML = "<span>Good 😐</span>";
+        emoji.innerHTML = "<span><Good 😐></span>";
     } else {
         emoji.innerHTML = "<span>Omo, try again!!! 😞</span>";
     }
